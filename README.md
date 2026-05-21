@@ -1,6 +1,6 @@
 # Expense Tracker Backend API
 
-A simple Expense Tracker Backend API built using Node.js, Express.js, MongoDB Atlas, and Mongoose.
+A professional Expense Tracker Backend API built using Node.js, Express.js, MongoDB Atlas, Mongoose, and Swagger Documentation.
 
 ---
 
@@ -14,6 +14,7 @@ A simple Expense Tracker Backend API built using Node.js, Express.js, MongoDB At
 - Delete Expense
 - MongoDB Database Integration
 - REST API
+- Swagger API Documentation
 - Render Deployment
 
 ---
@@ -24,6 +25,8 @@ A simple Expense Tracker Backend API built using Node.js, Express.js, MongoDB At
 - Express.js
 - MongoDB Atlas
 - Mongoose
+- Swagger UI
+- Swagger JSDoc
 - Render
 - Postman
 - GitHub
@@ -62,7 +65,7 @@ GET /expense/:id
 
 ### Search Expense
 
-GET /search?category=Entertainment
+GET /search?category=Food
 
 ### Update Expense
 
@@ -71,6 +74,16 @@ PUT /expense/:id
 ### Delete Expense
 
 DELETE /expense/:id
+
+---
+
+## Swagger Documentation
+
+Swagger UI is integrated for API documentation and testing.
+
+### Swagger URL
+
+https://expense-tracker-backend-ader.onrender.com/api-docs
 
 ---
 
