@@ -62,7 +62,7 @@ GET /expense/:id
 
 ### Search Expense
 
-GET /search?category=Food
+GET /search?category=Entertainment
 
 ### Update Expense
 
